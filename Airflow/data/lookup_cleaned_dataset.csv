@@ -1,0 +1,271 @@
+Column name,Original value,Imputed Value
+store_and_fwd_flag,N,0
+store_and_fwd_flag,Y,1
+rate_type,Group ride,0
+rate_type,JFK,1
+rate_type,Nassau or Westchester,2
+rate_type,Negotiated fare,3
+rate_type,Newark,4
+rate_type,Standard rate,5
+location,"Bronx,Allerton/Pelham Gardens",0
+location,"Bronx,Bedford Park",1
+location,"Bronx,Belmont",2
+location,"Bronx,Bronx Park",3
+location,"Bronx,Bronxdale",4
+location,"Bronx,City Island",5
+location,"Bronx,Claremont/Bathgate",6
+location,"Bronx,Co-Op City",7
+location,"Bronx,Country Club",8
+location,"Bronx,Crotona Park",9
+location,"Bronx,Crotona Park East",10
+location,"Bronx,East Concourse/Concourse Village",11
+location,"Bronx,East Tremont",12
+location,"Bronx,Eastchester",13
+location,"Bronx,Fordham South",14
+location,"Bronx,Highbridge",15
+location,"Bronx,Hunts Point",16
+location,"Bronx,Kingsbridge Heights",17
+location,"Bronx,Longwood",18
+location,"Bronx,Melrose South",19
+location,"Bronx,Morrisania/Melrose",20
+location,"Bronx,Mott Haven/Port Morris",21
+location,"Bronx,Mount Hope",22
+location,"Bronx,Norwood",23
+location,"Bronx,Parkchester",24
+location,"Bronx,Pelham Bay",25
+location,"Bronx,Pelham Bay Park",26
+location,"Bronx,Pelham Parkway",27
+location,"Bronx,Riverdale/North Riverdale/Fieldston",28
+location,"Bronx,Schuylerville/Edgewater Park",29
+location,"Bronx,Soundview/Bruckner",30
+location,"Bronx,Soundview/Castle Hill",31
+location,"Bronx,Spuyten Duyvil/Kingsbridge",32
+location,"Bronx,University Heights/Morris Heights",33
+location,"Bronx,Van Cortlandt Park",34
+location,"Bronx,Van Cortlandt Village",35
+location,"Bronx,Van Nest/Morris Park",36
+location,"Bronx,West Concourse",37
+location,"Bronx,West Farms/Bronx River",38
+location,"Bronx,Westchester Village/Unionport",39
+location,"Bronx,Williamsbridge/Olinville",40
+location,"Bronx,Woodlawn/Wakefield",41
+location,"Brooklyn,Bath Beach",42
+location,"Brooklyn,Bay Ridge",43
+location,"Brooklyn,Bedford",44
+location,"Brooklyn,Bensonhurst East",45
+location,"Brooklyn,Bensonhurst West",46
+location,"Brooklyn,Boerum Hill",47
+location,"Brooklyn,Borough Park",48
+location,"Brooklyn,Brighton Beach",49
+location,"Brooklyn,Brooklyn Heights",50
+location,"Brooklyn,Brooklyn Navy Yard",51
+location,"Brooklyn,Brownsville",52
+location,"Brooklyn,Bushwick North",53
+location,"Brooklyn,Bushwick South",54
+location,"Brooklyn,Canarsie",55
+location,"Brooklyn,Carroll Gardens",56
+location,"Brooklyn,Clinton Hill",57
+location,"Brooklyn,Cobble Hill",58
+location,"Brooklyn,Columbia Street",59
+location,"Brooklyn,Coney Island",60
+location,"Brooklyn,Crown Heights North",61
+location,"Brooklyn,Crown Heights South",62
+location,"Brooklyn,Cypress Hills",63
+location,"Brooklyn,DUMBO/Vinegar Hill",64
+location,"Brooklyn,Downtown Brooklyn/MetroTech",65
+location,"Brooklyn,Dyker Heights",66
+location,"Brooklyn,East Flatbush/Farragut",67
+location,"Brooklyn,East Flatbush/Remsen Village",68
+location,"Brooklyn,East New York",69
+location,"Brooklyn,East New York/Pennsylvania Avenue",70
+location,"Brooklyn,East Williamsburg",71
+location,"Brooklyn,Erasmus",72
+location,"Brooklyn,Flatbush/Ditmas Park",73
+location,"Brooklyn,Flatlands",74
+location,"Brooklyn,Fort Greene",75
+location,"Brooklyn,Gowanus",76
+location,"Brooklyn,Gravesend",77
+location,"Brooklyn,Green-Wood Cemetery",78
+location,"Brooklyn,Greenpoint",79
+location,"Brooklyn,Homecrest",80
+location,"Brooklyn,Kensington",81
+location,"Brooklyn,Madison",82
+location,"Brooklyn,Manhattan Beach",83
+location,"Brooklyn,Marine Park/Floyd Bennett Field",84
+location,"Brooklyn,Marine Park/Mill Basin",85
+location,"Brooklyn,Midwood",86
+location,"Brooklyn,Ocean Hill",87
+location,"Brooklyn,Ocean Parkway South",88
+location,"Brooklyn,Park Slope",89
+location,"Brooklyn,Prospect Heights",90
+location,"Brooklyn,Prospect Park",91
+location,"Brooklyn,Prospect-Lefferts Gardens",92
+location,"Brooklyn,Red Hook",93
+location,"Brooklyn,Sheepshead Bay",94
+location,"Brooklyn,South Williamsburg",95
+location,"Brooklyn,Starrett City",96
+location,"Brooklyn,Stuyvesant Heights",97
+location,"Brooklyn,Sunset Park East",98
+location,"Brooklyn,Sunset Park West",99
+location,"Brooklyn,Williamsburg (North Side)",100
+location,"Brooklyn,Williamsburg (South Side)",101
+location,"Brooklyn,Windsor Terrace",102
+location,"EWR,Newark Airport",103
+location,"Manhattan,Alphabet City",104
+location,"Manhattan,Battery Park",105
+location,"Manhattan,Battery Park City",106
+location,"Manhattan,Bloomingdale",107
+location,"Manhattan,Central Harlem",108
+location,"Manhattan,Central Harlem North",109
+location,"Manhattan,Central Park",110
+location,"Manhattan,Chinatown",111
+location,"Manhattan,Clinton East",112
+location,"Manhattan,Clinton West",113
+location,"Manhattan,East Chelsea",114
+location,"Manhattan,East Harlem North",115
+location,"Manhattan,East Harlem South",116
+location,"Manhattan,East Village",117
+location,"Manhattan,Financial District North",118
+location,"Manhattan,Financial District South",119
+location,"Manhattan,Flatiron",120
+location,"Manhattan,Garment District",121
+location,"Manhattan,Gramercy",122
+location,"Manhattan,Greenwich Village North",123
+location,"Manhattan,Greenwich Village South",124
+location,"Manhattan,Hamilton Heights",125
+location,"Manhattan,Highbridge Park",126
+location,"Manhattan,Hudson Sq",127
+location,"Manhattan,Inwood",128
+location,"Manhattan,Inwood Hill Park",129
+location,"Manhattan,Kips Bay",130
+location,"Manhattan,Lenox Hill East",131
+location,"Manhattan,Lenox Hill West",132
+location,"Manhattan,Lincoln Square East",133
+location,"Manhattan,Lincoln Square West",134
+location,"Manhattan,Little Italy/NoLiTa",135
+location,"Manhattan,Lower East Side",136
+location,"Manhattan,Manhattan Valley",137
+location,"Manhattan,Manhattanville",138
+location,"Manhattan,Marble Hill",139
+location,"Manhattan,Meatpacking/West Village West",140
+location,"Manhattan,Midtown Center",141
+location,"Manhattan,Midtown East",142
+location,"Manhattan,Midtown North",143
+location,"Manhattan,Midtown South",144
+location,"Manhattan,Morningside Heights",145
+location,"Manhattan,Murray Hill",146
+location,"Manhattan,Penn Station/Madison Sq West",147
+location,"Manhattan,Randalls Island",148
+location,"Manhattan,Roosevelt Island",149
+location,"Manhattan,Seaport",150
+location,"Manhattan,SoHo",151
+location,"Manhattan,Stuy Town/Peter Cooper Village",152
+location,"Manhattan,Sutton Place/Turtle Bay North",153
+location,"Manhattan,Times Sq/Theatre District",154
+location,"Manhattan,TriBeCa/Civic Center",155
+location,"Manhattan,Two Bridges/Seward Park",156
+location,"Manhattan,UN/Turtle Bay South",157
+location,"Manhattan,Union Sq",158
+location,"Manhattan,Upper East Side North",159
+location,"Manhattan,Upper East Side South",160
+location,"Manhattan,Upper West Side North",161
+location,"Manhattan,Upper West Side South",162
+location,"Manhattan,Washington Heights North",163
+location,"Manhattan,Washington Heights South",164
+location,"Manhattan,West Chelsea/Hudson Yards",165
+location,"Manhattan,West Village",166
+location,"Manhattan,World Trade Center",167
+location,"Manhattan,Yorkville East",168
+location,"Manhattan,Yorkville West",169
+location,"Queens,Astoria",170
+location,"Queens,Astoria Park",171
+location,"Queens,Auburndale",172
+location,"Queens,Baisley Park",173
+location,"Queens,Bay Terrace/Fort Totten",174
+location,"Queens,Bayside",175
+location,"Queens,Bellerose",176
+location,"Queens,Breezy Point/Fort Tilden/Riis Beach",177
+location,"Queens,Briarwood/Jamaica Hills",178
+location,"Queens,Broad Channel",179
+location,"Queens,Cambria Heights",180
+location,"Queens,College Point",181
+location,"Queens,Corona",182
+location,"Queens,Douglaston",183
+location,"Queens,East Elmhurst",184
+location,"Queens,East Flushing",185
+location,"Queens,Elmhurst",186
+location,"Queens,Elmhurst/Maspeth",187
+location,"Queens,Far Rockaway",188
+location,"Queens,Flushing",189
+location,"Queens,Flushing Meadows-Corona Park",190
+location,"Queens,Forest Hills",191
+location,"Queens,Forest Park/Highland Park",192
+location,"Queens,Fresh Meadows",193
+location,"Queens,Glen Oaks",194
+location,"Queens,Glendale",195
+location,"Queens,Hammels/Arverne",196
+location,"Queens,Hillcrest/Pomonok",197
+location,"Queens,Hollis",198
+location,"Queens,Howard Beach",199
+location,"Queens,JFK Airport",200
+location,"Queens,Jackson Heights",201
+location,"Queens,Jamaica",202
+location,"Queens,Jamaica Estates",203
+location,"Queens,Kew Gardens",204
+location,"Queens,Kew Gardens Hills",205
+location,"Queens,LaGuardia Airport",206
+location,"Queens,Laurelton",207
+location,"Queens,Long Island City/Hunters Point",208
+location,"Queens,Long Island City/Queens Plaza",209
+location,"Queens,Maspeth",210
+location,"Queens,Middle Village",211
+location,"Queens,Murray Hill-Queens",212
+location,"Queens,North Corona",213
+location,"Queens,Oakland Gardens",214
+location,"Queens,Old Astoria",215
+location,"Queens,Ozone Park",216
+location,"Queens,Queens Village",217
+location,"Queens,Queensboro Hill",218
+location,"Queens,Queensbridge/Ravenswood",219
+location,"Queens,Rego Park",220
+location,"Queens,Richmond Hill",221
+location,"Queens,Ridgewood",222
+location,"Queens,Rockaway Park",223
+location,"Queens,Rosedale",224
+location,"Queens,Saint Albans",225
+location,"Queens,Saint Michaels Cemetery/Woodside",226
+location,"Queens,South Jamaica",227
+location,"Queens,South Ozone Park",228
+location,"Queens,Springfield Gardens North",229
+location,"Queens,Springfield Gardens South",230
+location,"Queens,Steinway",231
+location,"Queens,Sunnyside",232
+location,"Queens,Whitestone",233
+location,"Queens,Willets Point",234
+location,"Queens,Woodhaven",235
+location,"Queens,Woodside",236
+location,"Staten Island,Arrochar/Fort Wadsworth",237
+location,"Staten Island,Bloomfield/Emerson Hill",238
+location,"Staten Island,Eltingville/Annadale/Prince's Bay",239
+location,"Staten Island,Great Kills",240
+location,"Staten Island,Grymes Hill/Clifton",241
+location,"Staten Island,Heartland Village/Todt Hill",242
+location,"Staten Island,Mariners Harbor",243
+location,"Staten Island,New Dorp/Midland Beach",244
+location,"Staten Island,Oakwood",245
+location,"Staten Island,Port Richmond",246
+location,"Staten Island,Saint George/New Brighton",247
+location,"Staten Island,South Beach/Dongan Hills",248
+location,"Staten Island,Stapleton",249
+location,"Staten Island,West Brighton",250
+location,"Staten Island,Westerleigh",251
+location,"Unknown,NV",252
+location,"Unknown,Unknown",253
+payment_type,Cash,0
+payment_type,Credit card,1
+payment_type,Dispute,2
+payment_type,No charge,3
+payment_type,Uknown,4
+payment_type,,5
+ordered_through_phone_or_app,Street-hail,0
+ordered_through_phone_or_app,Dispatch,1

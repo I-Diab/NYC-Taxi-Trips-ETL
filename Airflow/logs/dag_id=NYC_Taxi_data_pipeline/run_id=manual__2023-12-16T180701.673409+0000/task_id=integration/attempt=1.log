@@ -1,0 +1,16 @@
+[2023-12-16T18:07:08.071+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: NYC_Taxi_data_pipeline.integration manual__2023-12-16T18:07:01.673409+00:00 [queued]>
+[2023-12-16T18:07:08.080+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: NYC_Taxi_data_pipeline.integration manual__2023-12-16T18:07:01.673409+00:00 [queued]>
+[2023-12-16T18:07:08.080+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-16T18:07:08.094+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): integration> on 2023-12-16 18:07:01.673409+00:00
+[2023-12-16T18:07:08.101+0000] {standard_task_runner.py:57} INFO - Started process 11360 to run task
+[2023-12-16T18:07:08.104+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'NYC_Taxi_data_pipeline', 'integration', 'manual__2023-12-16T18:07:01.673409+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/taxi_etl.py', '--cfg-path', '/tmp/tmptqtylb18']
+[2023-12-16T18:07:08.107+0000] {standard_task_runner.py:85} INFO - Job 13: Subtask integration
+[2023-12-16T18:07:08.153+0000] {task_command.py:416} INFO - Running <TaskInstance: NYC_Taxi_data_pipeline.integration manual__2023-12-16T18:07:01.673409+00:00 [running]> on host 6abb98cbcbb2
+[2023-12-16T18:07:08.250+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='islam' AIRFLOW_CTX_DAG_ID='NYC_Taxi_data_pipeline' AIRFLOW_CTX_TASK_ID='integration' AIRFLOW_CTX_EXECUTION_DATE='2023-12-16T18:07:01.673409+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-16T18:07:01.673409+00:00'
+[2023-12-16T18:07:11.291+0000] {logging_mixin.py:154} INFO - Database connect successfully
+[2023-12-16T18:07:11.318+0000] {logging_mixin.py:154} INFO - Table already exists. Error: Table 'M4_green_taxis_11_2017' already exists.
+[2023-12-16T18:07:11.320+0000] {logging_mixin.py:154} INFO - Table already exists. Error: Table 'lookup_table' already exists.
+[2023-12-16T18:07:11.331+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-12-16T18:07:11.339+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=NYC_Taxi_data_pipeline, task_id=integration, execution_date=20231216T180701, start_date=20231216T180708, end_date=20231216T180711
+[2023-12-16T18:07:11.367+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-16T18:07:11.385+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,133 @@
+[2024-01-21T21:10:23.977+0000] {processor.py:157} INFO - Started process (PID=171) to work on /opt/airflow/dags/taxi_etl.py
+[2024-01-21T21:10:23.985+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2024-01-21T21:10:23.989+0000] {logging_mixin.py:154} INFO - [2024-01-21T21:10:23.988+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T21:10:26.308+0000] {processor.py:839} INFO - DAG(s) dict_keys(['NYC_Taxi_data_pipeline']) retrieved from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T21:10:26.751+0000] {logging_mixin.py:154} INFO - [2024-01-21T21:10:26.749+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-21T21:10:26.796+0000] {logging_mixin.py:154} INFO - [2024-01-21T21:10:26.795+0000] {dag.py:3722} INFO - Setting next_dagrun for NYC_Taxi_data_pipeline to None, run_after=None
+[2024-01-21T21:10:26.832+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 2.859 seconds
+[2024-01-21T23:50:37.589+0000] {processor.py:157} INFO - Started process (PID=171) to work on /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:50:37.599+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2024-01-21T23:50:37.600+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:50:37.600+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:50:39.377+0000] {processor.py:839} INFO - DAG(s) dict_keys(['NYC_Taxi_data_pipeline']) retrieved from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:50:39.411+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:50:39.410+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-21T23:50:39.432+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:50:39.432+0000] {dag.py:3722} INFO - Setting next_dagrun for NYC_Taxi_data_pipeline to None, run_after=None
+[2024-01-21T23:50:39.453+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 1.866 seconds
+[2024-01-21T23:51:09.703+0000] {processor.py:157} INFO - Started process (PID=212) to work on /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:51:09.704+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2024-01-21T23:51:09.705+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:51:09.705+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:51:10.465+0000] {processor.py:839} INFO - DAG(s) dict_keys(['NYC_Taxi_data_pipeline']) retrieved from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:51:10.483+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:51:10.483+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-21T23:51:10.499+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:51:10.499+0000] {dag.py:3722} INFO - Setting next_dagrun for NYC_Taxi_data_pipeline to None, run_after=None
+[2024-01-21T23:51:10.515+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.814 seconds
+[2024-01-21T23:51:40.887+0000] {processor.py:157} INFO - Started process (PID=253) to work on /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:51:40.888+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2024-01-21T23:51:40.888+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:51:40.888+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:51:41.688+0000] {processor.py:839} INFO - DAG(s) dict_keys(['NYC_Taxi_data_pipeline']) retrieved from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:51:41.706+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:51:41.705+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-21T23:51:41.722+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:51:41.721+0000] {dag.py:3722} INFO - Setting next_dagrun for NYC_Taxi_data_pipeline to None, run_after=None
+[2024-01-21T23:51:41.739+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.855 seconds
+[2024-01-21T23:52:12.018+0000] {processor.py:157} INFO - Started process (PID=286) to work on /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:52:12.018+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2024-01-21T23:52:12.349+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:52:12.348+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:52:13.188+0000] {processor.py:839} INFO - DAG(s) dict_keys(['NYC_Taxi_data_pipeline']) retrieved from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:52:13.205+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:52:13.205+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-21T23:52:13.225+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:52:13.225+0000] {dag.py:3722} INFO - Setting next_dagrun for NYC_Taxi_data_pipeline to None, run_after=None
+[2024-01-21T23:52:13.244+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 1.229 seconds
+[2024-01-21T23:52:43.492+0000] {processor.py:157} INFO - Started process (PID=327) to work on /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:52:43.493+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2024-01-21T23:52:43.494+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:52:43.494+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:52:44.311+0000] {processor.py:839} INFO - DAG(s) dict_keys(['NYC_Taxi_data_pipeline']) retrieved from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:52:44.333+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:52:44.333+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-21T23:52:44.350+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:52:44.350+0000] {dag.py:3722} INFO - Setting next_dagrun for NYC_Taxi_data_pipeline to None, run_after=None
+[2024-01-21T23:52:44.367+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.877 seconds
+[2024-01-21T23:53:14.579+0000] {processor.py:157} INFO - Started process (PID=368) to work on /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:53:14.580+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2024-01-21T23:53:14.581+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:53:14.580+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:53:15.398+0000] {processor.py:839} INFO - DAG(s) dict_keys(['NYC_Taxi_data_pipeline']) retrieved from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:53:15.422+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:53:15.421+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-21T23:53:15.445+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:53:15.445+0000] {dag.py:3722} INFO - Setting next_dagrun for NYC_Taxi_data_pipeline to None, run_after=None
+[2024-01-21T23:53:15.465+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.889 seconds
+[2024-01-21T23:53:45.737+0000] {processor.py:157} INFO - Started process (PID=401) to work on /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:53:45.738+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2024-01-21T23:53:45.739+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:53:45.739+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:53:46.489+0000] {processor.py:839} INFO - DAG(s) dict_keys(['NYC_Taxi_data_pipeline']) retrieved from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:53:46.507+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:53:46.506+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-21T23:53:46.522+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:53:46.522+0000] {dag.py:3722} INFO - Setting next_dagrun for NYC_Taxi_data_pipeline to None, run_after=None
+[2024-01-21T23:53:46.538+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.804 seconds
+[2024-01-21T23:54:16.825+0000] {processor.py:157} INFO - Started process (PID=442) to work on /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:54:16.826+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2024-01-21T23:54:16.826+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:54:16.826+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:54:17.574+0000] {processor.py:839} INFO - DAG(s) dict_keys(['NYC_Taxi_data_pipeline']) retrieved from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:54:17.592+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:54:17.592+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-21T23:54:17.607+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:54:17.607+0000] {dag.py:3722} INFO - Setting next_dagrun for NYC_Taxi_data_pipeline to None, run_after=None
+[2024-01-21T23:54:17.624+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.802 seconds
+[2024-01-21T23:54:47.946+0000] {processor.py:157} INFO - Started process (PID=483) to work on /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:54:47.947+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2024-01-21T23:54:47.948+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:54:47.948+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:54:48.773+0000] {processor.py:839} INFO - DAG(s) dict_keys(['NYC_Taxi_data_pipeline']) retrieved from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:54:48.789+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:54:48.789+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-21T23:54:48.804+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:54:48.804+0000] {dag.py:3722} INFO - Setting next_dagrun for NYC_Taxi_data_pipeline to None, run_after=None
+[2024-01-21T23:54:48.820+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.877 seconds
+[2024-01-21T23:55:19.070+0000] {processor.py:157} INFO - Started process (PID=516) to work on /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:55:19.071+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2024-01-21T23:55:19.073+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:55:19.072+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:55:20.018+0000] {processor.py:839} INFO - DAG(s) dict_keys(['NYC_Taxi_data_pipeline']) retrieved from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:55:20.035+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:55:20.035+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-21T23:55:20.052+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:55:20.052+0000] {dag.py:3722} INFO - Setting next_dagrun for NYC_Taxi_data_pipeline to None, run_after=None
+[2024-01-21T23:55:20.068+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 1.002 seconds
+[2024-01-21T23:55:50.421+0000] {processor.py:157} INFO - Started process (PID=557) to work on /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:55:50.422+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2024-01-21T23:55:50.423+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:55:50.423+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:55:51.228+0000] {processor.py:839} INFO - DAG(s) dict_keys(['NYC_Taxi_data_pipeline']) retrieved from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:55:51.246+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:55:51.245+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-21T23:55:51.262+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:55:51.262+0000] {dag.py:3722} INFO - Setting next_dagrun for NYC_Taxi_data_pipeline to None, run_after=None
+[2024-01-21T23:55:51.280+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.861 seconds
+[2024-01-21T23:56:21.573+0000] {processor.py:157} INFO - Started process (PID=598) to work on /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:56:21.574+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2024-01-21T23:56:21.575+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:56:21.575+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:56:22.630+0000] {processor.py:839} INFO - DAG(s) dict_keys(['NYC_Taxi_data_pipeline']) retrieved from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:56:22.649+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:56:22.648+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-21T23:56:22.674+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:56:22.674+0000] {dag.py:3722} INFO - Setting next_dagrun for NYC_Taxi_data_pipeline to None, run_after=None
+[2024-01-21T23:56:22.705+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 1.134 seconds
+[2024-01-21T23:56:52.853+0000] {processor.py:157} INFO - Started process (PID=631) to work on /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:56:52.854+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2024-01-21T23:56:52.857+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:56:52.856+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:56:53.967+0000] {processor.py:839} INFO - DAG(s) dict_keys(['NYC_Taxi_data_pipeline']) retrieved from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:56:53.995+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:56:53.995+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-21T23:56:54.020+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:56:54.020+0000] {dag.py:3722} INFO - Setting next_dagrun for NYC_Taxi_data_pipeline to None, run_after=None
+[2024-01-21T23:56:54.046+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 1.197 seconds
+[2024-01-21T23:57:24.118+0000] {processor.py:157} INFO - Started process (PID=672) to work on /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:57:24.119+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2024-01-21T23:57:24.120+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:57:24.120+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:57:25.233+0000] {processor.py:839} INFO - DAG(s) dict_keys(['NYC_Taxi_data_pipeline']) retrieved from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:57:25.256+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:57:25.255+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-21T23:57:25.275+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:57:25.275+0000] {dag.py:3722} INFO - Setting next_dagrun for NYC_Taxi_data_pipeline to None, run_after=None
+[2024-01-21T23:57:25.296+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 1.181 seconds
+[2024-01-21T23:57:55.457+0000] {processor.py:157} INFO - Started process (PID=705) to work on /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:57:55.458+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2024-01-21T23:57:55.459+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:57:55.459+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:57:56.251+0000] {processor.py:839} INFO - DAG(s) dict_keys(['NYC_Taxi_data_pipeline']) retrieved from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:57:56.268+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:57:56.268+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-21T23:57:56.284+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:57:56.284+0000] {dag.py:3722} INFO - Setting next_dagrun for NYC_Taxi_data_pipeline to None, run_after=None
+[2024-01-21T23:57:56.302+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.848 seconds
+[2024-01-21T23:58:26.541+0000] {processor.py:157} INFO - Started process (PID=746) to work on /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:58:26.543+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2024-01-21T23:58:26.546+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:58:26.545+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:58:27.723+0000] {processor.py:839} INFO - DAG(s) dict_keys(['NYC_Taxi_data_pipeline']) retrieved from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:58:27.749+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:58:27.748+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-21T23:58:27.776+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:58:27.775+0000] {dag.py:3722} INFO - Setting next_dagrun for NYC_Taxi_data_pipeline to None, run_after=None
+[2024-01-21T23:58:27.816+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 1.280 seconds
+[2024-01-21T23:58:58.051+0000] {processor.py:157} INFO - Started process (PID=779) to work on /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:58:58.052+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2024-01-21T23:58:58.053+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:58:58.053+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:58:59.203+0000] {processor.py:839} INFO - DAG(s) dict_keys(['NYC_Taxi_data_pipeline']) retrieved from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:58:59.226+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:58:59.226+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-21T23:58:59.251+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:58:59.250+0000] {dag.py:3722} INFO - Setting next_dagrun for NYC_Taxi_data_pipeline to None, run_after=None
+[2024-01-21T23:58:59.274+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 1.227 seconds
+[2024-01-21T23:59:29.495+0000] {processor.py:157} INFO - Started process (PID=820) to work on /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:59:29.496+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2024-01-21T23:59:29.498+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:59:29.497+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:59:30.487+0000] {processor.py:839} INFO - DAG(s) dict_keys(['NYC_Taxi_data_pipeline']) retrieved from /opt/airflow/dags/taxi_etl.py
+[2024-01-21T23:59:30.513+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:59:30.513+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-21T23:59:30.535+0000] {logging_mixin.py:154} INFO - [2024-01-21T23:59:30.535+0000] {dag.py:3722} INFO - Setting next_dagrun for NYC_Taxi_data_pipeline to None, run_after=None
+[2024-01-21T23:59:30.562+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 1.071 seconds

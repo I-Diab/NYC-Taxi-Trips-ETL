@@ -1,0 +1,66 @@
+[2023-12-16T18:10:59.469+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: NYC_Taxi_data_pipeline.visualization manual__2023-12-16T18:10:27.755436+00:00 [queued]>
+[2023-12-16T18:10:59.478+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: NYC_Taxi_data_pipeline.visualization manual__2023-12-16T18:10:27.755436+00:00 [queued]>
+[2023-12-16T18:10:59.478+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-16T18:10:59.491+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): visualization> on 2023-12-16 18:10:27.755436+00:00
+[2023-12-16T18:10:59.496+0000] {standard_task_runner.py:57} INFO - Started process 442 to run task
+[2023-12-16T18:10:59.499+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'NYC_Taxi_data_pipeline', 'visualization', 'manual__2023-12-16T18:10:27.755436+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/taxi_etl.py', '--cfg-path', '/tmp/tmpzztaycxl']
+[2023-12-16T18:10:59.502+0000] {standard_task_runner.py:85} INFO - Job 8: Subtask visualization
+[2023-12-16T18:10:59.544+0000] {task_command.py:416} INFO - Running <TaskInstance: NYC_Taxi_data_pipeline.visualization manual__2023-12-16T18:10:27.755436+00:00 [running]> on host 1956fcd736af
+[2023-12-16T18:10:59.606+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='islam' AIRFLOW_CTX_DAG_ID='NYC_Taxi_data_pipeline' AIRFLOW_CTX_TASK_ID='visualization' AIRFLOW_CTX_EXECUTION_DATE='2023-12-16T18:10:27.755436+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-16T18:10:27.755436+00:00'
+[2023-12-16T18:11:04.598+0000] {logging_mixin.py:154} INFO - Dash is running on http://0.0.0.0:8050/
+[2023-12-16T18:11:04.598+0000] {dash.py:2053} INFO - Dash is running on http://0.0.0.0:8050/
+
+[2023-12-16T18:11:04.613+0000] {logging_mixin.py:154} INFO -  * Serving Flask app '***'
+[2023-12-16T18:11:04.614+0000] {logging_mixin.py:154} INFO -  * Debug mode: off
+[2023-12-16T18:11:04.615+0000] {_internal.py:224} INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8050
+ * Running on http://172.24.0.3:8050
+[2023-12-16T18:11:04.615+0000] {_internal.py:224} INFO - [33mPress CTRL+C to quit[0m
+[2023-12-16T18:11:23.078+0000] {_internal.py:224} INFO - 172.24.0.1 - - [16/Dec/2023 18:11:23] "GET / HTTP/1.1" 200 -
+[2023-12-16T18:11:23.123+0000] {_internal.py:224} INFO - 172.24.0.1 - - [16/Dec/2023 18:11:23] "GET /_dash-component-suites/dash/deps/polyfill@7.v2_14_2m1702726893.12.1.min.js HTTP/1.1" 200 -
+[2023-12-16T18:11:23.131+0000] {_internal.py:224} INFO - 172.24.0.1 - - [16/Dec/2023 18:11:23] "GET /_dash-component-suites/dash/deps/prop-types@15.v2_14_2m1702726893.8.1.min.js HTTP/1.1" 200 -
+[2023-12-16T18:11:23.133+0000] {_internal.py:224} INFO - 172.24.0.1 - - [16/Dec/2023 18:11:23] "GET /_dash-component-suites/dash/deps/react-dom@16.v2_14_2m1702726893.14.0.min.js HTTP/1.1" 200 -
+[2023-12-16T18:11:23.134+0000] {_internal.py:224} INFO - 172.24.0.1 - - [16/Dec/2023 18:11:23] "GET /_dash-component-suites/dash/deps/react@16.v2_14_2m1702726893.14.0.min.js HTTP/1.1" 200 -
+[2023-12-16T18:11:23.135+0000] {_internal.py:224} INFO - 172.24.0.1 - - [16/Dec/2023 18:11:23] "GET /_dash-component-suites/dash/dash-renderer/build/dash_renderer.v2_14_2m1702726893.min.js HTTP/1.1" 200 -
+[2023-12-16T18:11:23.137+0000] {_internal.py:224} INFO - 172.24.0.1 - - [16/Dec/2023 18:11:23] "GET /_dash-component-suites/dash/dcc/dash_core_components.v2_12_1m1702726893.js HTTP/1.1" 200 -
+[2023-12-16T18:11:23.139+0000] {_internal.py:224} INFO - 172.24.0.1 - - [16/Dec/2023 18:11:23] "GET /_dash-component-suites/dash/dcc/dash_core_components-shared.v2_12_1m1702726893.js HTTP/1.1" 200 -
+[2023-12-16T18:11:23.145+0000] {_internal.py:224} INFO - 172.24.0.1 - - [16/Dec/2023 18:11:23] "GET /_dash-component-suites/dash/dash_table/bundle.v5_2_8m1702726893.js HTTP/1.1" 200 -
+[2023-12-16T18:11:23.147+0000] {_internal.py:224} INFO - 172.24.0.1 - - [16/Dec/2023 18:11:23] "GET /_dash-component-suites/dash/html/dash_html_components.v2_0_15m1702726893.min.js HTTP/1.1" 200 -
+[2023-12-16T18:11:23.249+0000] {_internal.py:224} INFO - 172.24.0.1 - - [16/Dec/2023 18:11:23] "GET /_dash-dependencies HTTP/1.1" 200 -
+[2023-12-16T18:11:23.258+0000] {_internal.py:224} INFO - 172.24.0.1 - - [16/Dec/2023 18:11:23] "GET /_dash-layout HTTP/1.1" 200 -
+[2023-12-16T18:11:23.283+0000] {_internal.py:224} INFO - 172.24.0.1 - - [16/Dec/2023 18:11:23] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+[2023-12-16T18:11:23.372+0000] {_internal.py:224} INFO - 172.24.0.1 - - [16/Dec/2023 18:11:23] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+[2023-12-16T18:11:24.681+0000] {_internal.py:224} INFO - 172.24.0.1 - - [16/Dec/2023 18:11:24] "POST /_dash-update-component HTTP/1.1" 200 -
+[2023-12-16T18:12:05.266+0000] {local_task_job_runner.py:294} WARNING - State of this instance has been externally set to restarting. Terminating instance.
+[2023-12-16T18:12:05.272+0000] {process_utils.py:131} INFO - Sending 15 to group 442. PIDs of all processes in the group: [442]
+[2023-12-16T18:12:05.272+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 442
+[2023-12-16T18:12:05.273+0000] {taskinstance.py:1632} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-12-16T18:12:05.284+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/create_dashboard.py", line 220, in create_dashboard
+    app.run_server(host='0.0.0.0', debug=False)
+  File "/home/airflow/.local/lib/python3.8/site-packages/dash/dash.py", line 2175, in run_server
+    self.run(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/dash/dash.py", line 2076, in run
+    self.server.run(host=host, port=port, debug=debug, **flask_run_options)
+  File "/home/airflow/.local/lib/python3.8/site-packages/flask/app.py", line 1191, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/home/airflow/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 1069, in run_simple
+    srv.serve_forever()
+  File "/home/airflow/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 766, in serve_forever
+    super().serve_forever(poll_interval=poll_interval)
+  File "/usr/local/lib/python3.8/socketserver.py", line 232, in serve_forever
+    ready = selector.select(poll_interval)
+  File "/usr/local/lib/python3.8/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1634, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2023-12-16T18:12:05.293+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=NYC_Taxi_data_pipeline, task_id=visualization, execution_date=20231216T181027, start_date=20231216T181059, end_date=20231216T181205
+[2023-12-16T18:12:05.306+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 8 for task visualization (Task received SIGTERM signal; 442)
+[2023-12-16T18:12:05.325+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=442, status='terminated', exitcode=1, started='18:10:58') (442) terminated with exit code 1

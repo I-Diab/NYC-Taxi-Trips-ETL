@@ -1,0 +1,636 @@
+[2023-12-11T00:11:43.972+0000] {processor.py:157} INFO - Started process (PID=3613) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:11:43.973+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:11:43.975+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:11:43.975+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:11:44.004+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:11:43.999+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 3, in <module>
+    f
+NameError: name 'f' is not defined
+[2023-12-11T00:11:44.006+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:11:44.027+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.058 seconds
+[2023-12-11T00:12:14.185+0000] {processor.py:157} INFO - Started process (PID=3953) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:12:14.186+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:12:14.187+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:12:14.187+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:12:14.209+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:12:14.205+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 3, in <module>
+    f
+NameError: name 'f' is not defined
+[2023-12-11T00:12:14.211+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:12:14.227+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.044 seconds
+[2023-12-11T00:12:44.476+0000] {processor.py:157} INFO - Started process (PID=4274) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:12:44.477+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:12:44.478+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:12:44.478+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:12:44.498+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:12:44.494+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 3, in <module>
+    f
+NameError: name 'f' is not defined
+[2023-12-11T00:12:44.500+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:12:44.520+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.047 seconds
+[2023-12-11T00:13:14.695+0000] {processor.py:157} INFO - Started process (PID=4614) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:13:14.696+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:13:14.697+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:13:14.696+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:13:14.715+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:13:14.711+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 3, in <module>
+    f
+NameError: name 'f' is not defined
+[2023-12-11T00:13:14.716+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:13:14.736+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.044 seconds
+[2023-12-11T00:13:44.902+0000] {processor.py:157} INFO - Started process (PID=4944) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:13:44.903+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:13:44.903+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:13:44.903+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:13:44.922+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:13:44.918+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 3, in <module>
+    f
+NameError: name 'f' is not defined
+[2023-12-11T00:13:44.923+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:13:44.941+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.042 seconds
+[2023-12-11T00:14:15.105+0000] {processor.py:157} INFO - Started process (PID=5276) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:14:15.106+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:14:15.107+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:14:15.107+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:14:15.129+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:14:15.126+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 3, in <module>
+    f
+NameError: name 'f' is not defined
+[2023-12-11T00:14:15.131+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:14:15.151+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.049 seconds
+[2023-12-11T00:14:45.337+0000] {processor.py:157} INFO - Started process (PID=5605) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:14:45.338+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:14:45.339+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:14:45.339+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:14:45.361+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:14:45.357+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 3, in <module>
+    f
+NameError: name 'f' is not defined
+[2023-12-11T00:14:45.362+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:14:45.379+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.045 seconds
+[2023-12-11T00:15:15.556+0000] {processor.py:157} INFO - Started process (PID=5937) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:15:15.557+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:15:15.558+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:15:15.558+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:15:15.574+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:15:15.571+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 3, in <module>
+    f
+NameError: name 'f' is not defined
+[2023-12-11T00:15:15.575+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:15:15.591+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.037 seconds
+[2023-12-11T00:15:45.832+0000] {processor.py:157} INFO - Started process (PID=6266) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:15:45.835+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:15:45.837+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:15:45.836+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:15:45.867+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:15:45.861+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 3, in <module>
+    f
+NameError: name 'f' is not defined
+[2023-12-11T00:15:45.869+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:15:45.892+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.066 seconds
+[2023-12-11T00:16:16.049+0000] {processor.py:157} INFO - Started process (PID=6604) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:16:16.050+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:16:16.051+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:16:16.050+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:16:16.066+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:16:16.063+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 3, in <module>
+    f
+NameError: name 'f' is not defined
+[2023-12-11T00:16:16.067+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:16:16.086+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.041 seconds
+[2023-12-11T00:16:46.368+0000] {processor.py:157} INFO - Started process (PID=6927) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:16:46.369+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:16:46.370+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:16:46.370+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:16:46.388+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:16:46.384+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 3, in <module>
+    f
+NameError: name 'f' is not defined
+[2023-12-11T00:16:46.389+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:16:46.406+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.040 seconds
+[2023-12-11T00:17:16.591+0000] {processor.py:157} INFO - Started process (PID=7265) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:17:16.592+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:17:16.593+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:17:16.593+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:17:16.612+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:17:16.608+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 3, in <module>
+    f
+NameError: name 'f' is not defined
+[2023-12-11T00:17:16.613+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:17:16.631+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.042 seconds
+[2023-12-11T00:17:46.810+0000] {processor.py:157} INFO - Started process (PID=7588) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:17:46.811+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:17:46.812+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:17:46.812+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:17:46.839+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:17:46.834+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 3, in <module>
+    f
+NameError: name 'f' is not defined
+[2023-12-11T00:17:46.841+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:17:46.859+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.052 seconds
+[2023-12-11T00:18:17.041+0000] {processor.py:157} INFO - Started process (PID=7926) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:18:17.042+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:18:17.043+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:18:17.042+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:18:17.061+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:18:17.057+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 3, in <module>
+    f
+NameError: name 'f' is not defined
+[2023-12-11T00:18:17.062+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:18:17.078+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.040 seconds
+[2023-12-11T00:18:47.245+0000] {processor.py:157} INFO - Started process (PID=8249) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:18:47.246+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:18:47.247+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:18:47.247+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:18:47.267+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:18:47.263+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 3, in <module>
+    f
+NameError: name 'f' is not defined
+[2023-12-11T00:18:47.269+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:18:47.287+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.044 seconds
+[2023-12-11T00:19:17.498+0000] {processor.py:157} INFO - Started process (PID=8588) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:19:17.499+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:19:17.500+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:19:17.500+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:19:17.518+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:19:17.514+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 3, in <module>
+    f
+NameError: name 'f' is not defined
+[2023-12-11T00:19:17.519+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:19:17.537+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.042 seconds
+[2023-12-11T00:19:47.728+0000] {processor.py:157} INFO - Started process (PID=8911) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:19:47.729+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:19:47.730+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:19:47.729+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:19:47.745+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:19:47.742+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 3, in <module>
+    f
+NameError: name 'f' is not defined
+[2023-12-11T00:19:47.747+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:19:47.768+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.043 seconds
+[2023-12-11T00:20:17.974+0000] {processor.py:157} INFO - Started process (PID=9249) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:20:17.975+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:20:17.976+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:20:17.976+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:20:17.995+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:20:17.991+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 3, in <module>
+    f
+NameError: name 'f' is not defined
+[2023-12-11T00:20:17.996+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:20:18.021+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.049 seconds
+[2023-12-11T00:20:23.179+0000] {processor.py:157} INFO - Started process (PID=9313) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:20:23.180+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:20:23.182+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:20:23.181+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:20:23.202+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:20:23.200+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 25
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-12-11T00:20:23.203+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:20:23.224+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.048 seconds
+[2023-12-11T00:20:53.379+0000] {processor.py:157} INFO - Started process (PID=9640) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:20:53.380+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:20:53.381+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:20:53.381+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:20:53.403+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:20:53.402+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 25
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-12-11T00:20:53.404+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:20:53.427+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.051 seconds
+[2023-12-11T00:21:23.648+0000] {processor.py:157} INFO - Started process (PID=9980) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:21:23.650+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:21:23.651+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:21:23.651+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:21:23.674+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:21:23.673+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 25
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-12-11T00:21:23.674+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:21:23.691+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.046 seconds
+[2023-12-11T00:21:53.922+0000] {processor.py:157} INFO - Started process (PID=10313) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:21:53.923+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:21:53.925+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:21:53.924+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:21:53.946+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:21:53.945+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 25
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-12-11T00:21:53.947+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:21:53.964+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.045 seconds
+[2023-12-11T00:22:24.141+0000] {processor.py:157} INFO - Started process (PID=10641) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:22:24.142+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:22:24.143+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:22:24.142+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:22:24.159+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:22:24.158+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 25
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-12-11T00:22:24.159+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:22:24.178+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.039 seconds
+[2023-12-11T00:22:54.376+0000] {processor.py:157} INFO - Started process (PID=10974) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:22:54.377+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:22:54.378+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:22:54.378+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:22:54.398+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:22:54.396+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 25
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-12-11T00:22:54.398+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:22:54.420+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.047 seconds
+[2023-12-11T00:23:24.588+0000] {processor.py:157} INFO - Started process (PID=11302) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:23:24.588+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:23:24.589+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:23:24.589+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:23:24.604+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:23:24.603+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 25
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-12-11T00:23:24.605+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:23:24.628+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.043 seconds
+[2023-12-11T00:23:54.827+0000] {processor.py:157} INFO - Started process (PID=11631) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:23:54.828+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:23:54.829+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:23:54.829+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:23:54.848+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:23:54.847+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 25
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-12-11T00:23:54.849+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:23:54.868+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.043 seconds
+[2023-12-11T00:24:25.096+0000] {processor.py:157} INFO - Started process (PID=11963) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:24:25.096+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:24:25.097+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:24:25.097+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:24:25.113+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:24:25.113+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 25
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-12-11T00:24:25.114+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:24:25.131+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.038 seconds
+[2023-12-11T00:24:55.315+0000] {processor.py:157} INFO - Started process (PID=12292) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:24:55.317+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:24:55.318+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:24:55.317+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:24:55.341+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:24:55.340+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 25
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-12-11T00:24:55.342+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:24:55.366+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.053 seconds
+[2023-12-11T00:25:25.483+0000] {processor.py:157} INFO - Started process (PID=12623) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:25:25.485+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:25:25.486+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:25:25.486+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:25:25.506+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:25:25.505+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 25
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-12-11T00:25:25.507+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:25:25.529+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.051 seconds
+[2023-12-11T00:25:55.687+0000] {processor.py:157} INFO - Started process (PID=12953) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:25:55.688+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:25:55.689+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:25:55.689+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:25:55.708+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:25:55.707+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 25
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-12-11T00:25:55.708+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:25:55.730+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.047 seconds
+[2023-12-11T00:26:25.848+0000] {processor.py:157} INFO - Started process (PID=13281) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:26:25.849+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:26:25.849+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:26:25.849+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:26:25.865+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:26:25.865+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 25
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-12-11T00:26:25.866+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:26:25.884+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.039 seconds
+[2023-12-11T00:26:56.132+0000] {processor.py:157} INFO - Started process (PID=13617) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:26:56.133+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:26:56.134+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:26:56.134+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:26:56.149+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:26:56.148+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 25
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-12-11T00:26:56.149+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:26:56.167+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.037 seconds
+[2023-12-11T00:27:26.429+0000] {processor.py:157} INFO - Started process (PID=13946) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:27:26.430+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:27:26.431+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:27:26.431+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:27:26.449+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:27:26.448+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 25
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-12-11T00:27:26.449+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:27:26.468+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.042 seconds
+[2023-12-11T00:27:56.704+0000] {processor.py:157} INFO - Started process (PID=14281) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:27:56.705+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:27:56.707+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:27:56.706+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:27:56.725+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:27:56.724+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 25
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-12-11T00:27:56.726+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:27:56.745+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.046 seconds
+[2023-12-11T00:28:26.964+0000] {processor.py:157} INFO - Started process (PID=14615) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:28:26.965+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:28:26.966+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:28:26.966+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:28:26.987+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:28:26.986+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 25
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-12-11T00:28:26.987+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:28:27.007+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.045 seconds
+[2023-12-11T00:28:57.180+0000] {processor.py:157} INFO - Started process (PID=14942) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:28:57.181+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:28:57.182+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:28:57.182+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:28:57.202+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:28:57.201+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 25
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-12-11T00:28:57.203+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:28:57.221+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.044 seconds
+[2023-12-11T00:29:27.452+0000] {processor.py:157} INFO - Started process (PID=15272) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:29:27.453+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:29:27.454+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:29:27.453+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:29:27.474+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:29:27.473+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 25
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-12-11T00:29:27.474+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:29:27.494+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.045 seconds
+[2023-12-11T00:29:57.724+0000] {processor.py:157} INFO - Started process (PID=15603) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:29:57.725+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:29:57.726+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:29:57.726+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:29:57.746+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:29:57.745+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 25
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-12-11T00:29:57.747+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:29:57.764+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.042 seconds
+[2023-12-11T00:30:28.033+0000] {processor.py:157} INFO - Started process (PID=15937) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:30:28.034+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:30:28.035+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:30:28.035+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:30:28.057+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:30:28.056+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 25
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-12-11T00:30:28.058+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:30:28.076+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.048 seconds
+[2023-12-11T00:30:58.249+0000] {processor.py:157} INFO - Started process (PID=16264) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:30:58.250+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:30:58.251+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:30:58.251+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:30:58.265+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:30:58.264+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/taxi_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/taxi_etl.py", line 25
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-12-11T00:30:58.266+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:30:58.282+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.036 seconds
+[2023-12-11T00:31:20.536+0000] {processor.py:157} INFO - Started process (PID=16516) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:31:20.537+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:31:20.538+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:31:20.538+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:31:20.634+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:31:20.653+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.120 seconds
+[2023-12-11T00:31:50.769+0000] {processor.py:157} INFO - Started process (PID=16797) to work on /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:31:50.770+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/taxi_etl.py for tasks to queue
+[2023-12-11T00:31:50.772+0000] {logging_mixin.py:154} INFO - [2023-12-11T00:31:50.771+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:31:50.787+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_etl.py
+[2023-12-11T00:31:50.799+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/taxi_etl.py took 0.033 seconds

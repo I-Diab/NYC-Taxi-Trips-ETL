@@ -1,0 +1,16 @@
+[2023-12-16T13:35:21.217+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: NYC_Taxi_data_pipeline.integration manual__2023-12-16T13:35:15.200489+00:00 [queued]>
+[2023-12-16T13:35:21.226+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: NYC_Taxi_data_pipeline.integration manual__2023-12-16T13:35:15.200489+00:00 [queued]>
+[2023-12-16T13:35:21.226+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-16T13:35:21.238+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): integration> on 2023-12-16 13:35:15.200489+00:00
+[2023-12-16T13:35:21.244+0000] {standard_task_runner.py:57} INFO - Started process 328 to run task
+[2023-12-16T13:35:21.247+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'NYC_Taxi_data_pipeline', 'integration', 'manual__2023-12-16T13:35:15.200489+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/taxi_etl.py', '--cfg-path', '/tmp/tmpzmcrvlh0']
+[2023-12-16T13:35:21.250+0000] {standard_task_runner.py:85} INFO - Job 7: Subtask integration
+[2023-12-16T13:35:21.332+0000] {task_command.py:416} INFO - Running <TaskInstance: NYC_Taxi_data_pipeline.integration manual__2023-12-16T13:35:15.200489+00:00 [running]> on host 5325b8af6d98
+[2023-12-16T13:35:21.415+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='islam' AIRFLOW_CTX_DAG_ID='NYC_Taxi_data_pipeline' AIRFLOW_CTX_TASK_ID='integration' AIRFLOW_CTX_EXECUTION_DATE='2023-12-16T13:35:15.200489+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-16T13:35:15.200489+00:00'
+[2023-12-16T13:35:22.654+0000] {logging_mixin.py:154} INFO - Database connect successfully
+[2023-12-16T13:35:45.822+0000] {logging_mixin.py:154} INFO - csv file uploaded to the db as a table
+[2023-12-16T13:35:45.839+0000] {logging_mixin.py:154} INFO - csv file uploaded to the db as a table
+[2023-12-16T13:35:45.851+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-12-16T13:35:45.860+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=NYC_Taxi_data_pipeline, task_id=integration, execution_date=20231216T133515, start_date=20231216T133521, end_date=20231216T133545
+[2023-12-16T13:35:45.910+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-16T13:35:45.931+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

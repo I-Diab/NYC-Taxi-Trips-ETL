@@ -1,0 +1,53 @@
+[2023-12-16T13:35:47.367+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: NYC_Taxi_data_pipeline.visualization manual__2023-12-16T13:35:15.200489+00:00 [queued]>
+[2023-12-16T13:35:47.379+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: NYC_Taxi_data_pipeline.visualization manual__2023-12-16T13:35:15.200489+00:00 [queued]>
+[2023-12-16T13:35:47.380+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-16T13:35:47.397+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): visualization> on 2023-12-16 13:35:15.200489+00:00
+[2023-12-16T13:35:47.404+0000] {standard_task_runner.py:57} INFO - Started process 376 to run task
+[2023-12-16T13:35:47.408+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'NYC_Taxi_data_pipeline', 'visualization', 'manual__2023-12-16T13:35:15.200489+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/taxi_etl.py', '--cfg-path', '/tmp/tmp9akb_6dn']
+[2023-12-16T13:35:47.411+0000] {standard_task_runner.py:85} INFO - Job 8: Subtask visualization
+[2023-12-16T13:35:47.459+0000] {task_command.py:416} INFO - Running <TaskInstance: NYC_Taxi_data_pipeline.visualization manual__2023-12-16T13:35:15.200489+00:00 [running]> on host 5325b8af6d98
+[2023-12-16T13:35:47.530+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='islam' AIRFLOW_CTX_DAG_ID='NYC_Taxi_data_pipeline' AIRFLOW_CTX_TASK_ID='visualization' AIRFLOW_CTX_EXECUTION_DATE='2023-12-16T13:35:15.200489+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-16T13:35:15.200489+00:00'
+[2023-12-16T13:35:50.271+0000] {logging_mixin.py:154} INFO - Dash is running on http://0.0.0.0:8050/
+[2023-12-16T13:35:50.271+0000] {dash.py:2053} INFO - Dash is running on http://0.0.0.0:8050/
+
+[2023-12-16T13:35:50.284+0000] {logging_mixin.py:154} INFO -  * Serving Flask app '***'
+[2023-12-16T13:35:50.285+0000] {logging_mixin.py:154} INFO -  * Debug mode: on
+[2023-12-16T14:20:18.374+0000] {local_task_job_runner.py:115} ERROR - Received SIGTERM. Terminating subprocesses
+[2023-12-16T14:20:18.463+0000] {process_utils.py:131} INFO - Sending 15 to group 376. PIDs of all processes in the group: [378, 391, 392, 400, 402, 405, 409, 413, 417, 421, 425, 429, 433, 437, 441, 445, 447, 451, 456, 461, 465, 469, 473, 474, 480, 485, 489, 495, 498, 501, 504, 508, 513, 517, 523, 527, 376]
+[2023-12-16T14:20:18.466+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 376
+[2023-12-16T14:20:18.585+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=473, status='terminated', started='13:35:52') (473) terminated with exit code None
+[2023-12-16T14:20:18.587+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=441, status='terminated', started='13:35:52') (441) terminated with exit code None
+[2023-12-16T14:20:18.588+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=474, status='terminated', started='13:35:52') (474) terminated with exit code None
+[2023-12-16T14:20:18.588+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=495, status='terminated', started='13:35:52') (495) terminated with exit code None
+[2023-12-16T14:20:18.589+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=517, status='terminated', started='13:35:52') (517) terminated with exit code None
+[2023-12-16T14:20:18.590+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=485, status='terminated', started='13:35:52') (485) terminated with exit code None
+[2023-12-16T14:20:18.590+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=433, status='terminated', started='13:35:52') (433) terminated with exit code None
+[2023-12-16T14:20:18.591+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=445, status='terminated', started='13:35:52') (445) terminated with exit code None
+[2023-12-16T14:20:18.591+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=402, status='terminated', started='13:35:52') (402) terminated with exit code None
+[2023-12-16T14:20:18.592+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=421, status='terminated', started='13:35:52') (421) terminated with exit code None
+[2023-12-16T14:20:18.593+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=400, status='terminated', started='13:35:52') (400) terminated with exit code None
+[2023-12-16T14:20:18.594+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=523, status='terminated', started='13:35:52') (523) terminated with exit code None
+[2023-12-16T14:20:18.594+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=391, status='terminated', started='13:35:52') (391) terminated with exit code None
+[2023-12-16T14:20:18.595+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=437, status='terminated', started='13:35:52') (437) terminated with exit code None
+[2023-12-16T14:20:18.647+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=376, status='terminated', exitcode=0, started='13:35:47') (376) terminated with exit code 0
+[2023-12-16T14:20:18.700+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=480, status='terminated', started='13:35:52') (480) terminated with exit code None
+[2023-12-16T14:20:18.701+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=447, status='terminated', started='13:35:52') (447) terminated with exit code None
+[2023-12-16T14:20:18.701+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=461, status='terminated', started='13:35:52') (461) terminated with exit code None
+[2023-12-16T14:20:18.702+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=504, status='terminated', started='13:35:52') (504) terminated with exit code None
+[2023-12-16T14:20:18.703+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=451, status='terminated', started='13:35:52') (451) terminated with exit code None
+[2023-12-16T14:20:18.703+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=508, status='terminated', started='13:35:52') (508) terminated with exit code None
+[2023-12-16T14:20:18.704+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=465, status='terminated', started='13:35:52') (465) terminated with exit code None
+[2023-12-16T14:20:18.704+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=498, status='terminated', started='13:35:52') (498) terminated with exit code None
+[2023-12-16T14:20:18.705+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=456, status='terminated', started='13:35:52') (456) terminated with exit code None
+[2023-12-16T14:20:18.706+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=409, status='terminated', started='13:35:52') (409) terminated with exit code None
+[2023-12-16T14:20:18.706+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=378, status='terminated', started='13:35:49') (378) terminated with exit code None
+[2023-12-16T14:20:18.707+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=413, status='terminated', started='13:35:52') (413) terminated with exit code None
+[2023-12-16T14:20:18.707+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=489, status='terminated', started='13:35:52') (489) terminated with exit code None
+[2023-12-16T14:20:18.708+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=392, status='terminated', started='13:35:52') (392) terminated with exit code None
+[2023-12-16T14:20:18.708+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=425, status='terminated', started='13:35:52') (425) terminated with exit code None
+[2023-12-16T14:20:18.709+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=469, status='terminated', started='13:35:52') (469) terminated with exit code None
+[2023-12-16T14:20:18.709+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=501, status='terminated', started='13:35:52') (501) terminated with exit code None
+[2023-12-16T14:20:18.710+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=513, status='terminated', started='13:35:52') (513) terminated with exit code None
+[2023-12-16T14:20:18.710+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=417, status='terminated', started='13:35:52') (417) terminated with exit code None
+[2023-12-16T14:20:18.711+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=429, status='terminated', started='13:35:52') (429) terminated with exit code None
+[2023-12-16T14:20:18.711+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=405, status='terminated', started='13:35:52') (405) terminated with exit code None

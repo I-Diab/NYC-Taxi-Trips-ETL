@@ -1,0 +1,65 @@
+[2023-12-16T13:35:19.039+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: NYC_Taxi_data_pipeline.extract_gps scheduled__2023-12-14T00:00:00+00:00 [queued]>
+[2023-12-16T13:35:19.048+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: NYC_Taxi_data_pipeline.extract_gps scheduled__2023-12-14T00:00:00+00:00 [queued]>
+[2023-12-16T13:35:19.048+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-16T13:35:19.063+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): extract_gps> on 2023-12-14 00:00:00+00:00
+[2023-12-16T13:35:19.068+0000] {standard_task_runner.py:57} INFO - Started process 300 to run task
+[2023-12-16T13:35:19.072+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'NYC_Taxi_data_pipeline', 'extract_gps', 'scheduled__2023-12-14T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/taxi_etl.py', '--cfg-path', '/tmp/tmp1ettn0t9']
+[2023-12-16T13:35:19.075+0000] {standard_task_runner.py:85} INFO - Job 4: Subtask extract_gps
+[2023-12-16T13:35:19.124+0000] {task_command.py:416} INFO - Running <TaskInstance: NYC_Taxi_data_pipeline.extract_gps scheduled__2023-12-14T00:00:00+00:00 [running]> on host 5325b8af6d98
+[2023-12-16T13:35:19.207+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='islam' AIRFLOW_CTX_DAG_ID='NYC_Taxi_data_pipeline' AIRFLOW_CTX_TASK_ID='extract_gps' AIRFLOW_CTX_EXECUTION_DATE='2023-12-14T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-14T00:00:00+00:00'
+[2023-12-16T13:35:19.225+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-12-16T13:35:19.234+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=NYC_Taxi_data_pipeline, task_id=extract_gps, execution_date=20231214T000000, start_date=20231216T133519, end_date=20231216T133519
+[2023-12-16T13:35:19.285+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-16T13:35:19.308+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-12-16T14:22:32.581+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: NYC_Taxi_data_pipeline.extract_gps scheduled__2023-12-14T00:00:00+00:00 [queued]>
+[2023-12-16T14:22:32.609+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: NYC_Taxi_data_pipeline.extract_gps scheduled__2023-12-14T00:00:00+00:00 [queued]>
+[2023-12-16T14:22:32.609+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-16T14:22:32.624+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): extract_gps> on 2023-12-14 00:00:00+00:00
+[2023-12-16T14:22:32.630+0000] {standard_task_runner.py:57} INFO - Started process 292 to run task
+[2023-12-16T14:22:32.634+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'NYC_Taxi_data_pipeline', 'extract_gps', 'scheduled__2023-12-14T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/taxi_etl.py', '--cfg-path', '/tmp/tmptadr7cz5']
+[2023-12-16T14:22:32.637+0000] {standard_task_runner.py:85} INFO - Job 4: Subtask extract_gps
+[2023-12-16T14:22:32.711+0000] {task_command.py:416} INFO - Running <TaskInstance: NYC_Taxi_data_pipeline.extract_gps scheduled__2023-12-14T00:00:00+00:00 [running]> on host 6abb98cbcbb2
+[2023-12-16T14:22:32.817+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='islam' AIRFLOW_CTX_DAG_ID='NYC_Taxi_data_pipeline' AIRFLOW_CTX_TASK_ID='extract_gps' AIRFLOW_CTX_EXECUTION_DATE='2023-12-14T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-14T00:00:00+00:00'
+[2023-12-16T14:22:32.868+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-12-16T14:22:32.877+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=NYC_Taxi_data_pipeline, task_id=extract_gps, execution_date=20231214T000000, start_date=20231216T142232, end_date=20231216T142232
+[2023-12-16T14:22:32.928+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-16T14:22:32.948+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-12-16T18:10:31.139+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: NYC_Taxi_data_pipeline.extract_gps scheduled__2023-12-14T00:00:00+00:00 [queued]>
+[2023-12-16T18:10:31.156+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: NYC_Taxi_data_pipeline.extract_gps scheduled__2023-12-14T00:00:00+00:00 [queued]>
+[2023-12-16T18:10:31.157+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-16T18:10:31.194+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): extract_gps> on 2023-12-14 00:00:00+00:00
+[2023-12-16T18:10:31.228+0000] {standard_task_runner.py:57} INFO - Started process 367 to run task
+[2023-12-16T18:10:31.230+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'NYC_Taxi_data_pipeline', 'extract_gps', 'scheduled__2023-12-14T00:00:00+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/taxi_etl.py', '--cfg-path', '/tmp/tmp11md7amh']
+[2023-12-16T18:10:31.233+0000] {standard_task_runner.py:85} INFO - Job 5: Subtask extract_gps
+[2023-12-16T18:10:31.482+0000] {task_command.py:416} INFO - Running <TaskInstance: NYC_Taxi_data_pipeline.extract_gps scheduled__2023-12-14T00:00:00+00:00 [running]> on host 1956fcd736af
+[2023-12-16T18:10:31.847+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='islam' AIRFLOW_CTX_DAG_ID='NYC_Taxi_data_pipeline' AIRFLOW_CTX_TASK_ID='extract_gps' AIRFLOW_CTX_EXECUTION_DATE='2023-12-14T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-14T00:00:00+00:00'
+[2023-12-16T18:10:31.920+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-12-16T18:10:31.928+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=NYC_Taxi_data_pipeline, task_id=extract_gps, execution_date=20231214T000000, start_date=20231216T181031, end_date=20231216T181031
+[2023-12-16T18:10:32.014+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-16T18:10:32.034+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-12-16T18:36:30.539+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: NYC_Taxi_data_pipeline.extract_gps scheduled__2023-12-14T00:00:00+00:00 [queued]>
+[2023-12-16T18:36:30.556+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: NYC_Taxi_data_pipeline.extract_gps scheduled__2023-12-14T00:00:00+00:00 [queued]>
+[2023-12-16T18:36:30.557+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-16T18:36:30.571+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): extract_gps> on 2023-12-14 00:00:00+00:00
+[2023-12-16T18:36:30.578+0000] {standard_task_runner.py:57} INFO - Started process 301 to run task
+[2023-12-16T18:36:30.581+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'NYC_Taxi_data_pipeline', 'extract_gps', 'scheduled__2023-12-14T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/taxi_etl.py', '--cfg-path', '/tmp/tmpyfi70wgz']
+[2023-12-16T18:36:30.584+0000] {standard_task_runner.py:85} INFO - Job 4: Subtask extract_gps
+[2023-12-16T18:36:30.637+0000] {task_command.py:416} INFO - Running <TaskInstance: NYC_Taxi_data_pipeline.extract_gps scheduled__2023-12-14T00:00:00+00:00 [running]> on host 570873a10993
+[2023-12-16T18:36:30.712+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='islam' AIRFLOW_CTX_DAG_ID='NYC_Taxi_data_pipeline' AIRFLOW_CTX_TASK_ID='extract_gps' AIRFLOW_CTX_EXECUTION_DATE='2023-12-14T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-14T00:00:00+00:00'
+[2023-12-16T18:36:30.859+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-12-16T18:36:30.867+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=NYC_Taxi_data_pipeline, task_id=extract_gps, execution_date=20231214T000000, start_date=20231216T183630, end_date=20231216T183630
+[2023-12-16T18:36:30.915+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-16T18:36:30.937+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-12-16T18:42:09.456+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: NYC_Taxi_data_pipeline.extract_gps scheduled__2023-12-14T00:00:00+00:00 [queued]>
+[2023-12-16T18:42:09.468+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: NYC_Taxi_data_pipeline.extract_gps scheduled__2023-12-14T00:00:00+00:00 [queued]>
+[2023-12-16T18:42:09.469+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-16T18:42:09.485+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): extract_gps> on 2023-12-14 00:00:00+00:00
+[2023-12-16T18:42:09.491+0000] {standard_task_runner.py:57} INFO - Started process 292 to run task
+[2023-12-16T18:42:09.494+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'NYC_Taxi_data_pipeline', 'extract_gps', 'scheduled__2023-12-14T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/taxi_etl.py', '--cfg-path', '/tmp/tmp80vax5z6']
+[2023-12-16T18:42:09.498+0000] {standard_task_runner.py:85} INFO - Job 4: Subtask extract_gps
+[2023-12-16T18:42:09.550+0000] {task_command.py:416} INFO - Running <TaskInstance: NYC_Taxi_data_pipeline.extract_gps scheduled__2023-12-14T00:00:00+00:00 [running]> on host 40ff33ca59cb
+[2023-12-16T18:42:09.645+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='islam' AIRFLOW_CTX_DAG_ID='NYC_Taxi_data_pipeline' AIRFLOW_CTX_TASK_ID='extract_gps' AIRFLOW_CTX_EXECUTION_DATE='2023-12-14T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-14T00:00:00+00:00'
+[2023-12-16T18:42:09.668+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-12-16T18:42:09.678+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=NYC_Taxi_data_pipeline, task_id=extract_gps, execution_date=20231214T000000, start_date=20231216T184209, end_date=20231216T184209
+[2023-12-16T18:42:09.709+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-16T18:42:09.737+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
